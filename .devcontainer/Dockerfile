@@ -14,7 +14,7 @@ RUN apt-get update && apt-get upgrade -y && \
 # RUN curl -LO <URL_KUSTOMIZE> && tar -zxvf <KUSTOMIZE_ARCHIVE> && mv kustomize /usr/local/bin/kustomize
 
 # Copier le fichier .zshrc personnalisé dans le répertoire utilisateur
-COPY .zshrc ~/.zshrc
+COPY .zshrc /home/vscode/.zshrc
 
 # Exécuter un shell Bash au démarrage
-CMD ["/bin/zsh"]
+ENTRYPOINT ["/bin/zsh"]

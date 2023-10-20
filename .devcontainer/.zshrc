@@ -83,9 +83,6 @@ plugins=(
     dirhistory
     sudo
     ubuntu
-    timer
-    docker
-    docker-compose
     vscode
 )
 
