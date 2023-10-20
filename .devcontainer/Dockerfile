@@ -13,8 +13,8 @@ RUN apt-get update && apt-get upgrade -y && \
 # RUN curl -LO <URL_HELM> && tar -zxvf <HELM_ARCHIVE> && mv linux-amd64/helm /usr/local/bin/helm
 # RUN curl -LO <URL_KUSTOMIZE> && tar -zxvf <KUSTOMIZE_ARCHIVE> && mv kustomize /usr/local/bin/kustomize
 
-# Copier le fichier .bashrc personnalisé dans le répertoire utilisateur
-COPY .bashrc /root/.bashrc
+# Copier le fichier .zshrc personnalisé dans le répertoire utilisateur
+COPY .zshrc ~/.zshrc
 
 # Exécuter un shell Bash au démarrage
-CMD ["/bin/bash"]
+CMD ["/bin/zsh"]
