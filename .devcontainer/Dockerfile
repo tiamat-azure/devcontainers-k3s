@@ -1,6 +1,9 @@
 # Utiliser une image de base Ubuntu
 FROM mcr.microsoft.com/devcontainers/base:jammy
 
+# Définir les métadonnées de l'image
+LABEL org.opencontainers.image.source https://github.com/tiamat-azure/devcontainers-k3s
+
 # Définir des variables d'environnement
 ENV HOME=/home/vscode
 ENV BIN=/usr/local/bin
