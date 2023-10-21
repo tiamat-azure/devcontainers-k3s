@@ -31,5 +31,8 @@ RUN curl -fsSL $GHRAW/helm/helm/main/scripts/get-helm-3 | bash
 RUN curl -s $GHRAW/kubernetes-sigs/kustomize/master/hack/install_kustomize.sh | bash && \
     sudo mv ./kustomize $BIN/kustomize
 
+# Excecuter le script de post-installation
+RUN curl -s $GHRAW/tiamat-azure/devcontainers-k3s/post-init.sh | bash
+
 # Exécuter un shell Zsh au démarrage
 ENTRYPOINT ["/bin/zsh"]
