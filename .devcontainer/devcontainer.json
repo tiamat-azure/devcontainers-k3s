@@ -14,7 +14,8 @@
 		  "KnisterPeter.vscode-commitizen",
 		  "ms-kubernetes-tools.vscode-kubernetes-tools",
 		  "redhat.vscode-yaml",
-		  "mutantdino.resourcemonitor"
+		  "mutantdino.resourcemonitor",
+		  "github.vscode-github-actions"
 		  ],
 		  "settings": {
 			"terminal.integrated.shell.linux": "/bin/zsh"
