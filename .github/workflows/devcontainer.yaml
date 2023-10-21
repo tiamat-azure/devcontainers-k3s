@@ -24,7 +24,7 @@ jobs:
         uses: devcontainers/ci@v0.3
         with:
           # Change this to point to your image name
-          imageName: ghcr.io/tiamat-azure/devcontainer-k3s
+          imageName: ghcr.io/tiamat-azure/devcontainer-k3s:latest
           # Change this to be your CI task/script
           runCmd: |
             # Add multiple commands to run if needed
