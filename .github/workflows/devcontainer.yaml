@@ -18,13 +18,13 @@ jobs:
         with:
           registry: ghcr.io
           username: ${{ github.repository_owner }}
-          password: ${{ secrets.GITHUB_TOKEN }}
+          password: ${{ secrets.GHCR_TOKEN }}
 
       - name: Build and run Dev Container task
         uses: devcontainers/ci@v0.3
         with:
           # Change this to point to your image name
-          imageName: ghcr.io/tiamat-azure/devcontainer-k3s:latest
+          imageName: ghcr.io/tiamat-azure/devcontainer-k3s
           # Change this to be your CI task/script
           runCmd: |
             # Add multiple commands to run if needed
