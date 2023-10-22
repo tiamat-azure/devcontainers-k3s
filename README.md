@@ -4,9 +4,9 @@
 
 Dev container for kubernetes using k3s, helm, kustomize
 
-## Get started
+## Introduction
 
-If you already have VS Code and Docker installed, you can click the badge above or [here](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/tiamat-azure/devcontainers-k3s) to get started. Clicking these links will cause VS Code to automatically install the Dev Containers extension if needed, clone the source code into a container volume, and spin up a dev container for use.
+Si vous avez déjà installé VS Code et Docker, vous pouvez cliquer sur le badge ci-dessus ou [ici](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/tiamat-azure/devcontainers-k3s) pour commencer. En cliquant sur ces liens, VS Code installera automatiquement l'extension Dev Containers si nécessaire, clonera le code source dans un volume de conteneur, et mettra en place un conteneur de développement à utiliser.
 
 Le Dev Container installera automatiquement les outils suivants :
 
