@@ -11,7 +11,7 @@ ENV GHRAW=https://raw.githubusercontent.com
 
 # Mettre à jour le système et installer les outils de base
 RUN apt-get update && \
-    apt-get install -y httpie figlet && \
+    apt-get install -y httpie dnsutils figlet && \
     apt-get clean
 
 # Personnaliser le prompt avec nos dotfiles sur GitHub
